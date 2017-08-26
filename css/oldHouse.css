@@ -1,0 +1,355 @@
+/*头部*/
+body{font-family: 微软雅黑;}
+    .navbar{
+      margin-bottom: 0;
+    }
+    .container-fluid{
+      height:90px;
+      background: #fff;
+    }
+    .container-fluid .navbar-header{
+      margin-left: 74px;
+    }
+    .navbar-collapse .header-select{
+      margin-top:35px;
+      float: left;
+    }
+    .collapse ul{
+      margin-left:29px;
+    }
+    .nav li a{
+      line-height: 60px;
+      font-weight: bold;
+      color: #000;
+    }
+    #header-index{color:#DC3348;}
+    .collapse ul li:nth-child(2){
+      margin-left: 184px;
+    }
+    .container-fluid .group{
+      margin-right: 74px;
+      margin-top:34px;
+      width:89px;
+      text-align: center;
+      display: table;
+    }
+    .container-fluid .group .but{
+      display: inline-block;
+      padding:0 5px;
+      width:42px;
+      outline: none;
+      background: #fff;
+      color:#777;
+      font-weight: bold;
+    }
+    #register{
+      margin-right: 5px;
+    }
+    .container-fluid .group .but:hover{color:#DC3348;}
+    .container-fluid .group .but:link{text-decoration: none;color:#DC3348;}
+    .change{border: 1px solid #DC3348;color:#DC3348;}
+
+    /*中间滑动图片*/
+    .banner{
+      height:388px;
+      background:#E30150;
+    }
+    .banner img{
+      width:100%;
+      height:388px;
+    }
+    .slide .row{
+      height:87px;
+      background:#DC3348;
+      position: relative;
+    }
+    .slide .row a{
+      display: inline-block;
+      width:16px;
+      height:16px;
+      text-align: center;
+      line-height: 16px;
+      position: absolute;
+      top:35px;
+      font-size: 26px;
+      color:#fff;
+      text-decoration: none;
+    }
+    .slide .row .left{left:80px;z-index:9999;}
+    .slide .row .right{right:80px;z-index: 9999;}
+    .box{
+      height:87px;
+      width:1075px;
+      position: relative;
+      margin:0 auto;
+      background: #DC3348;
+      overflow: hidden;
+    }
+    .expand{
+      width:4000px;
+      height:57px ;
+      position: absolute;
+      top:15px;
+    }
+    .expand img{
+      float: left;
+      display:block;
+      width:174px;
+      height:60px;
+      margin-right: 6px;
+    }
+    /*搜索框*/
+    .searchbox{
+      width:100%;
+      height:80px;
+      background: #F6F6F6;
+      overflow: hidden;
+    }
+    .search{
+      width:540px ;
+      height: 40px;
+      margin:20px auto;
+    }
+    .search input{
+      width:330px;
+      height:34px;
+      margin-top:3px;
+      outline: none;
+      padding-left:5px;
+      border:1px solid #D6D6D5;
+      margin-left: 26px;
+    }
+    .search .search-select{
+      width:70px;
+      height:34px;
+      margin-top:3px;
+      border:1px solid #C1C1C1;
+      outline: none;
+      margin-left: -5px;
+    }
+    .search a{
+      display: inline-block;
+      text-decoration: none;
+      width:80px;
+      height: 34px;
+      text-align: center;
+      line-height: 34px;
+      color:#DC3348;
+      background: #DEDEDC;
+      margin-left: -4px;
+    }
+    .search a:hover{background: #BD9F9F;}
+    /*区域选择*/
+    .houselist{
+      width:1135px;
+      margin:18px auto 0px;
+    }
+    .houselist h3{
+      color: #DC3348;
+    }
+    .houselist hr{
+      margin:0 auto;
+      border: 1px solid #eee;
+    }
+    .houselist ul{
+      list-style: none;
+      margin:0;
+      padding:0;
+    }
+    .houselist li a{
+      text-decoration: none;
+      float: left;
+      margin-right: 16px;
+      color:gray;
+      font-weight: bold;
+    }
+    .houselist .mostcolor{
+      color: #DC3348;
+    }
+    /*在线视频看房*/
+    .onlinevedio{
+      width:1135px;
+      margin:58px auto 0;
+    }
+    .onlinevedio .count{
+      display: inline-block;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .onlinevedio .mostcolor{
+      color: #DC3348;
+    }
+    .onlinevedio .default{
+      width:98px;
+      height:30px;
+      background: #EBEBEB;
+      text-align: center;
+      line-height: 30px;
+      float: right;
+      margin-right: 16px;
+    }
+    .onlinevedio select{
+      height:30px;
+      float: right;
+      margin-right: 16px;
+    }
+
+    .onlinevedio .row{
+      margin-top:5px;
+    }
+    .onlinevedio .price{
+      margin-right:30px;
+    }
+    .onlinevedio .allbuilding{
+      margin-left:0px;
+    }
+    .onlinevedio .col-md-2 {
+      width: 19.6%;
+      margin-right: 4px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .onlinevedio h3 a{
+      color:#000;
+    }
+    .onlinevedio h3 small{
+      background: #DC3348;
+      color:#fff;
+      padding:0 5px;
+    }
+    .onlinevedio .col-md-2 p{
+      margin:0 0 6px;
+    }
+    .onlinevedio .thumbnail .caption {
+    padding-bottom: 0px;
+  }
+  .thumbnail a img{
+      margin-left: 0px;
+  }
+  .onlinevedio .thumbnail .caption .guapaijia{
+    margin:30px auto 0px;
+  }
+  .thumbnail .guapaijia span{
+    font-weight:bold;
+    font-size:20px;
+  }
+  .onlinevedio .thumbnail .caption .yuyue{
+    text-align: center;
+    color:#DC3348;
+    border:1px solid #DEBFC4;
+    font-size: 16px;
+    margin:36px auto 36px;
+  }
+  .thumbnail .yuyue a{
+    display: inline-block;
+    color:#DC3348;
+    text-decoration: none;
+    width:100%;
+    padding:5px 0px;
+  }
+  .thumbnail .live {
+    text-align: center;
+  }
+  .thumbnail .live img{
+    display: inline;
+    border-radius: 8px;
+  }
+  .thumbnail .yuyue a:hover{
+    background:#DC3348;
+    color: #fff;
+  }
+  .onlinevedio .thumbnail .caption .btn{
+    margin-left:76px;
+  }
+  /*灰色间隔线*/
+  .dividers{
+    width:100%;
+    height:37px;
+    margin:64px auto 0;
+    background: #969593;
+  }
+  /*底部*/
+  .bottom{
+    margin-top: 36px;
+  }
+  .bottom .col-md-2 a{
+    text-decoration: none;
+    color:#000;
+  }
+  .bottom .bold{
+    font-weight: bold;
+  }
+  .bottom .toright{
+    text-align: right;
+  }
+  
+  .sevice{
+    width:32px;
+    height: 72px;
+    background: #F7F7F7;
+    position: fixed;
+    top:200px;
+    right:28px;
+    border-radius:4px;
+  }
+  .toTop{
+    width:32px;
+    height: 36px;
+    background: #F7F7F7;
+    color: #000;
+    z-index: 9999;
+    cursor: pointer;
+    position: absolute;
+    right:28px;
+    border-radius:4px;
+  }
+  .sevice .kefu,.call{
+    height:36px;
+    border-radius:4px;
+    position: relative;
+  }
+  .kefu .fix,.call .fix,.toTop .fix{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:32px;
+    height:36px;
+    border-radius:4px;
+    z-index: 9999;
+    display: none;
+    background: #DC3348;
+    color:#fff;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 12px;
+    padding-top: 7px;
+  }
+  .sevice .kefu:hover .fix{
+    display: block;
+  }
+  .sevice .call:hover .fix{
+    display: block;
+  }
+  .toTop:hover .fix{
+    display: block;
+  }
+
+  @font-face {font-family: "iconfont";
+  src: url('../iconfont/iconfont.eot?t=1458395929'); /* IE9*/
+  src: url('../iconfont/iconfont.eot?t=1458395929#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../iconfont/iconfont.woff?t=1458395929') format('woff'), /* chrome, firefox */
+  url('../iconfont/iconfont.ttf?t=1458395929') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../iconfont/iconfont.svg?t=1458395929#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:26px;
+  margin-left:3px;
+  color:#DC3348;cursor: pointer;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

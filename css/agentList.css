@@ -1,0 +1,183 @@
+body{
+	margin:0px;
+	font-family: "微软雅黑";
+}
+.rt{
+	float: right;
+}
+.lt{
+	float: left;
+}
+.wrap{
+	border-top: 2px solid #DC3348;
+	background-color: #d3d3d3;
+	border-bottom: 25px solid #d3d3d3;
+}
+.agent-title{
+	margin-top:25px;
+	margin-left: 90px;
+}
+/*搜索框*/
+    .searchbox{
+      height:80px;
+      overflow: hidden;
+    }
+    .search{
+      width:540px ;
+      height: 40px;
+      margin:20px auto;
+    }
+    .search input{
+      width:330px;
+      height:34px;
+      margin-top:3px;
+      outline: none;
+      padding-left:5px;
+      border:1px solid #D6D6D5;
+      margin-left: 26px;
+    }
+    .search .search-select{
+      width:70px;
+      height:34px;
+      margin-top:3px;
+      border:1px solid #C1C1C1;
+      outline: none;
+      margin-left: -5px;
+    }
+    .search a{
+      display: inline-block;
+      text-decoration: none;
+      width:80px;
+      height: 34px;
+      text-align: center;
+      line-height: 34px;
+      color:#DC3348;
+      background: #DEDEDC;
+      margin-left: -4px;
+    }
+    .search a:hover{background: #BD9F9F;}
+
+.fsj-agent{
+	color: #DC3348;
+	font-size: 24px;
+}
+.fsj-agentopen{
+	font-size: 16px;
+
+}
+.setcontorl{
+	background-image: none!important;
+}
+
+.setradius{
+	border-radius: 100%!important;
+	width: 40px!important;
+	height: 40px!important;
+	line-height: 40px;
+	background-color: #C1C1C1;
+}
+.carousel-inner .item .slidelist{
+
+	margin:0px auto;
+	width: 1160px;
+	height: 520px;
+}
+.carousel-inner .item .slidelist ul{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+	display: table;
+}
+.carousel-inner .item .slidelist ul li{
+	position: relative;
+	float: left;
+	height: 480px;
+	width: 146px;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 16px;
+}
+.slidelist  .slidelist-img{
+	position: absolute;
+	top: 170px;
+}
+.slidelist-p{
+	width: 146px;
+	height: 170px;
+	background-color: #DF465A;
+}
+
+.slidelist-p p{
+	margin-bottom: 0px;
+}
+.slidelist-p div{
+	margin-left:10px;
+	margin-right: 10px; 
+}
+.slidelist-p .slidelist-name p{
+	font-size: 17px;
+	font-weight: 600;
+	padding-top: 8px;
+}
+.slidelist-p .slidelist-name img{
+	margin-top: -4px;
+	margin-bottom: 2px;
+}
+.slidelist-p .slidelist-phone{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.slidelist-p .slidelist-phone p{
+	height: 18px;
+	line-height: 18px;
+}
+.slidelist-p .slidelist-phone p img{
+	margin-right: 5px;
+}
+.slidelist-p .slidelist-local{
+	font-size: 12px;
+}
+.slidelist-p .slide-link-button{
+	text-align: center;
+	margin-top: 5px;
+}
+.slidelist-p .slide-link-button a{
+	display: inline-block;
+	width: 77px;
+	height: 20px;
+	line-height: 20px;
+	color: #DF465A;
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: 13px;
+	font-weight: 600;
+}
+.slidelist-bottom{
+	position: absolute;
+	top: 316px;
+}
+.myslide ol{
+	bottom: 0px!important;
+	top: 520px!important;
+	height: 20px;
+	line-height: 20px;
+}
+.myslide ol li{
+	background-color: #DF465A;
+	color: #000;
+	width: 20px!important;
+	height: 20px!important;
+	text-indent:0px!important;
+}
+.slidelist-name-code{
+	width: 118px;
+	height: 16px;
+	display: block;
+	background-image: url(../image/h.png);
+}
+.slidelist-name-code1{
+	width: 60px;
+	height: 16px;
+	display: block;
+	background-image: url(../image/hh.png);
+}

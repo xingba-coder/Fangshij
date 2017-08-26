@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人信息管理</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/userInfoAdmin.css">
+</head>
+<body>
+	<!-- 头部 -->
+  <nav class="navbar">
+    <ul class="nav navbar-nav">
+      <li>
+        <div class="navbar-logo">
+          <a href="home.html"><img src="image/logo.jpg" class="img-responsive center-block" alt=""></a></div>
+      </li>
+      <li>
+        <h3 class="text-center">
+          &emsp;&emsp; <b>个人管理中心</b>
+          &emsp;&emsp;&emsp;
+        </h3>
+      </li>
+      <li>
+        <span class="navbar-btn"><a href="releaseForSale.html">发布出租</a></span>
+        <span class="navbar-btn"><a href="releaseForSale.html">发布出售</a></span>
+      </li>
+      <li>
+        <h3>
+          <small>客服电话：400-6090-888</small>
+        </h3>
+      </li>
+      <li>
+        <div class="navbar-exit"></div>
+        <div class="navbar-message"></div>
+      </li>
+    </ul>
+  </nav>
+  <!-- 我的首页导航区 -->
+  <div class="container-fluid myhome">
+    <div class="row">
+      <div class="col-md-3"><a href="userIndex.html">我的首页</a></div>
+      <div class="col-md-3"><a href="houseAdmin.html">房源管理</a></div>
+      <div class="col-md-3"><a href="userInfoAdmin.html" class="index">个人信息管理</a></div>
+      <div class="col-md-3"><a href="##">我的钱包</a></div>
+    </div>
+  </div>
+	<div class="wrap">
+		<form id="userinfo" action="" method="post" name=  "userinfo" class="user-register-info">
+			<div class="userinfotabs">
+				<div class="userinfotabs-radio lt">
+					<div class="userinfotabs-radio-infotabs">
+						<a href="#">个人资料</a><a href="#">修改密码</a><a href="#">身份认证</a><a href="#">查看留言</a>
+					</div>
+					<div class="userinfotabs-radio-degree">
+						<span class="">身份转换</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input id="isowner" class="" type="radio"  name="degree" />&nbsp;&nbsp;<label for="isowner">我是业主</label>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input id="isagent" class="" type="radio"  name="degree" />&nbsp;&nbsp;<label for="isagent">我是经纪人</label>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input id="isuser" class="" type="radio"  name="degree" />&nbsp;&nbsp;<label for="isuser">我是客户</label>
+					</div>
+				</div>
+				<div class="userinfotabs-logo lt">
+					<img src="image/userinfologo.png" />
+				</div>
+			</div>
+			<div class="register">
+				<div class="register-left lt">
+					
+				
+					<div class="register-select">
+						<div class="">所在城市</div>
+						<select>
+							<option>请输入省</option>
+							<option>湖南省</option>
+							<option>广东省</option>
+							<option>湖北省</option>
+						</select>
+						<select>
+							<option>请输入市</option>
+							<option>岳阳市</option>
+							<option>长沙市</option>
+							<option>郴州市</option>
+						</select>
+						<select>
+							<option>请输入区</option>
+							<option>天心区</option>
+							<option>岳麓区</option>
+							<option>长沙县</option>
+						</select>
+					</div>
+					
+					<div class="register-info">
+						<div class="register-info-name"><label>用户名</label><input type="text" placeholder="请输入用户名" /><i class="judge rt true"></i></div>
+						<div class="register-info-pass"><label>密码</label><input type="password" /><i class="judge rt "></i></div>
+						<div class="register-info-repass"><label>确认密码</label><input type="password" /><i class="judge rt "></i></div>
+						<div class="register-info-email"><label>真实姓名</label><input type="email" /><i class="judge rt"></i></div>
+						<div class="register-info-phone"><label>性别</label><input type="radio" name="sex" />男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" />女<i class="judge rt"></i></div>
+					</div>
+				</div>
+				<div class="register-right lt">				
+					<div class="register-select">
+						<div class="">出生日期</div>
+						<select>
+							<option>年</option>
+							<option>1993</option>
+							<option>1994</option>
+							<option>1995</option>
+						</select>
+						<select>
+							<option>月</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+						</select>
+						<select>
+							<option>日</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+						</select>
+					</div>
+					
+					<div class="register-info">
+						<div class="register-info-name"><label>手机</label><input type="text" /><i class="judge rt true"></i></div>
+						<div class="register-info-pass"><label>微信号</label><input type="password" /><i class="judge rt true"></i></div>
+						<div class="register-info-repass"><label>QQ</label><input type="password" /><i class="judge rt true"></i></div>
+						<div class="register-info-email"><label>邮箱</label><input type="email" /><i class="judge rt true"></i></div>
+					</div>
+
+					
+					<input type="submit" value="确认修改" class="register-button" />
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

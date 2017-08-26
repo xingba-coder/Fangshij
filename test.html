@@ -1,0 +1,26 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<body>
+
+<button id="run">run</button>
+<div></div>
+<div id="mover"></div>
+<div></div>
+<style type="text/css">
+	div{width:100px;
+		height:100px;
+		background:yellow;
+		float: left;
+	}
+</style>
+<script type="text/javascript">
+	$(function(){
+		$("div:animated").toggleClass(".greencolor");
+	})
+</script>
+</body>
+</html>

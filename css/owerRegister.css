@@ -1,0 +1,163 @@
+body{
+	margin: 0px;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	float: left;
+	list-style: none;
+}
+.lt{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.wrap{
+	width: 100%;
+	padding-top: 75px;
+	border-top: 4px solid #DC3347;
+	background-color: #F7F7F7;
+
+}
+.register{
+	width: 520px;
+	margin: 0px auto;
+}
+.register-title{
+	display: table;
+	margin: 0px auto;
+	text-align: center;
+}
+.register-title ul li a{
+	color: #787878;
+	font-weight: 200;
+}
+.register-title ul li a:hover{
+	color: #DC3347;
+}
+.title-live{
+	color: #DC3347;
+}
+.register-title h2{
+	margin: 0px;
+	padding: 0px;
+}
+.register-title .register-title-ower{
+	margin-right:60px;
+}
+.register-title .register-title-agent{
+	margin-right:60px;
+}
+.register-select{
+	margin-top: 17px;
+	margin-bottom: 40px;
+	height: 30px;
+	line-height: 28px;
+}
+.register-select div{
+	display: inline-block;
+	border:1px solid #E9E9E9;
+	color: #787878;
+	width: 130px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+}
+.register-select select{
+	width: 130px;
+	height: 28px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	margin-left:-6px; 
+	background-color: #f7f7f7;
+	border:1px solid #E9E9E9;
+}
+.register-info{
+	margin-bottom: 50px;
+}
+.register-info div{
+	margin-bottom: 20px;
+}
+.register-info label{
+	display: inline-block;
+	margin-left: 20px;
+	width: 80px;
+}
+.register .register-button{
+	width: 520px;
+	height: 50px;
+	border:0px;
+	background-color: #DC3348;
+	border-radius: 8px;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	font-weight: 100;
+	color: #fff;
+}
+.register-info-code{
+	height: 37px;line-height: 37px;
+}
+.register-info-code-button{
+	float: right;
+	width: 197px;
+	height: 37px;
+	background-color: #DC3348;
+	border:0px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: 100;
+	color: #fff;
+}
+.register-protocol{
+	margin-bottom: 10px;
+}
+.register-info .checkbox{
+	border-radius: round;
+	border:1px solid #DC3348;
+}
+.register-protocol a{
+	color: #DC3348!important;
+}
+.true{
+	background-image: url(../image/true.png);
+	background-position: -2px -2px;
+	background-repeat: no-repeat;
+}
+.judge{
+	display: inline-block;
+	width: 14px!important;
+	height: 14px!important;
+	margin-top: 3.5px;
+	border-radius: 100%;
+	border: 1px solid #DC3348;
+}
+.register-protocol input[type=checkbox]{
+	visibility: hidden;float: right;
+}
+.register-protocol i{
+	margin-right: 10px;
+	position: relative;
+}
+.register-protocol label{
+	position: absolute;
+	max-width:125%;
+	width: 17px;
+	height: 17px;
+	top:-1px;
+	left: -1px;
+}
+.register-protocol input[type=checkbox]:checked + label{
+	background-image: url(../image/true.png);
+	background-position: -1px -1px;
+	background-repeat: no-repeat;
+}

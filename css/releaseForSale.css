@@ -1,0 +1,213 @@
+
+*{
+	bor der: 1px solid #f00;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.navbar{
+	height:80px;
+  	margin-top: -10px;
+  	border-bottom: 2px solid #c63d4f;
+  	margin-bottom: 0px;
+}
+.navbar-logo{
+	margin-left: 74px;
+	width: 240px;
+	height: auto;
+}
+nav li:nth-child(3){
+	margin-left: 50px;
+}
+
+nav li:nth-child(4){
+	position: absolute;
+	right: 200px;
+}
+
+nav li:nth-child(5){
+	position: absolute;
+	right: 74px;
+}
+
+
+.navbar-btn{
+	margin:25px 10px;
+	padding: 1px 15px;
+	display: block;
+	font-size: 12px;
+	float: left;
+	color: #888;
+	border: 1px solid #999;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.nav span:hover{
+	color: #c63d4f;
+	border-color:#c63d4f; 
+}
+.nav small{
+	font-size: 14px;
+	font-weight: bolder;
+}
+.navbar-message{
+	width: 35px;
+	height: 35px;
+	margin:20px 4px;
+	background:url(../image/message.jpg)-4px -10px;
+	float: right;
+	cursor: pointer;
+}
+.navbar-message:hover{
+		background-position:-4px -46px ;
+}
+.navbar-exit{
+	width: 35px;
+	height: 35px;
+	margin:20px 4px;
+	background:url(../image/message.jpg)-47px -10px;
+	float: right;
+	cursor: pointer;
+}
+.navbar-exit:hover{
+	background-position:-47px -46px ;
+}
+.title{
+	color: #c63d4f;
+	font-weight: bold;
+}
+
+.title small{
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+}
+.form form ul{
+	list-style: none;
+	margin-left: 104px;
+}
+.form form ul li{
+	margin:  10px;
+}
+.form-select-city{
+	width: 450px;
+}
+.form-select-city div{
+	width: 140px;
+	line-height: 26px;
+	float: left;
+	text-align: center;
+	color: #777;
+	font-size: 14px;
+	border-radius: 4px 0px 0px 4px;
+	border: 1px solid rgb(204,204,204);
+}
+
+.form-select-city .form-control{
+	float: left;
+	width: 100px;
+	height: 28px;
+	padding-top:3px;
+	padding-bottom: 3px;
+	border-radius: 0px;
+}
+.form-control:nth-child(4){
+	border-radius: 0px 4px 4px 0px;
+}
+.form b{
+	display: block;
+	width: 120px;
+	float: left;
+	text-align: left;
+	letter-spacing: 1px;
+	padding-left: 10px;
+	padding-right: 30px;
+	line-height: 28px;
+}
+.form label{
+	font-weight: 400;
+}
+.form input{
+	padding-left: 5px;
+}
+.form input[type="text"]{
+	width: 350px;
+	
+}
+.form input[type="number"]{
+	width: 60px;
+	padding:0 0 0 8px ;
+}
+.form textarea{
+	width: 350px;
+	resize: none;
+	padding-left: 5px;
+}
+.select-house-type{
+	float: left;
+	width: 45px;
+	height: 24px;
+	padding-left: 5px;
+	padding-right:5px;
+	padding-top:0px;
+	padding-bottom: 3px;
+	border-right: 0px
+}
+
+table td{
+	display: block;
+	float: left;
+	width: 150px;
+	padding-right: 10px;
+	margin: 5px;
+}
+form h5{
+	font-size: 16px;
+	color: #c63d4f;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 20px;
+}
+input[type="submit"]{
+	width: 30%;
+	height: 40px;
+	margin: 0 33.3%;
+	font-size: 24px;
+	font-weight: bolder;;
+	color: #fff;
+	letter-spacing: 1px;
+	background-color: #Dc3348;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.search {
+	margin-top: 15px;
+}
+.search input[type="text"]{
+	float: right;
+	height: 34px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-right: none;
+}
+.search .form-control{
+	width: 50px;
+	padding: 5px;
+	background-color: #ccc;
+	border-radius: 0px;
+	float: right;
+	color: #fff;
+}
+.search input[type="button"]{
+	float: right;
+	height: 34px;
+	line-height: 34px;
+	padding:0px 15px;
+	font-size:16px;
+	letter-spacing: 1px;
+	border: none;
+	border-radius: 0 5px 5px 0px;
+	color: #fff;
+	background-color: #DC3348;
+}

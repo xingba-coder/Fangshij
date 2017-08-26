@@ -1,0 +1,14 @@
+/*底部*/
+        .bottom{
+          margin-top: 36px;
+        }
+        .bottom .col-md-2 a{
+          text-decoration: none;
+          color:#000;
+        }
+        .bottom .bold{
+          font-weight: bold;
+        }
+        .bottom .toright{
+          text-align: right;
+        }

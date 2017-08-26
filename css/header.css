@@ -1,0 +1,50 @@
+/*头部*/
+        .navbar{
+          margin-bottom: 0;
+        }
+        .container-fluid{
+          height:90px;
+          background: #fff;
+        }
+        .container-fluid .navbar-header{
+          margin-left: 74px;
+        }
+        .navbar-collapse .header-select{
+          margin-top:35px;
+          float: left;
+        }
+        .collapse ul{
+          margin-left:29px;
+        }
+        .nav li a{
+          line-height: 60px;
+          font-weight: bold;
+          color: #000;
+        }
+        #header-index{color:#DC3348;}
+        .collapse ul li:nth-child(2){
+          margin-left: 184px;
+        }
+        .container-fluid .group{
+          margin-right: 74px;
+          margin-top:34px;
+          width:89px;
+          text-align: center;
+          display: table;
+        }
+        .container-fluid .group .but{
+          display: table-cell;
+          padding:0 5px;
+          width:42px;
+          outline: none;
+          background: #fff;
+          color:#777;
+          font-weight: bold;
+        }
+        #register{
+          margin-right: 5px;
+        }
+        .container-fluid .group .but:hover{color:#DC3348;}
+        .container-fluid .group .but:link{text-decoration: none;color:#DC3348;}
+        .change{border: 1px solid #DC3348;color:#DC3348;margin:-1px 0 0 -1px;}
+        

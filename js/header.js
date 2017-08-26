@@ -1,0 +1,10 @@
+$(function(){
+        $("#register").on("click",function(){
+            $("#register").addClass("change");
+            $("#login").removeClass("change");
+        }); 
+        $("#login").on("click",function(){
+            $("#login").addClass("change");
+            $("#register").removeClass("change");
+        });
+      });

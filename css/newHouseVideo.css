@@ -1,0 +1,384 @@
+/*头部*/
+body{font-family: 微软雅黑;}
+    .navbar{
+      margin-bottom: 0;
+    }
+    .container-fluid{
+      height:90px;
+      background: #fff;
+    }
+    .container-fluid .navbar-header{
+      margin-left: 74px;
+    }
+    .navbar-collapse .header-select{
+      margin-top:35px;
+      float: left;
+    }
+    .collapse ul{
+      margin-left:29px;
+    }
+    .nav li a{
+      line-height: 60px;
+      font-weight: bold;
+      color: #000;
+    }
+    #header-index{color:#DC3348;}
+    .collapse ul li:nth-child(2){
+      margin-left: 184px;
+    }
+    .container-fluid .group{
+      margin-right: 74px;
+      margin-top:34px;
+      width:89px;
+      text-align: center;
+      display: table;
+    }
+    .container-fluid .group .but{
+      display: inline-block;
+      padding:0 5px;
+      width:42px;
+      outline: none;
+      background: #fff;
+      color:#777;
+      font-weight: bold;
+    }
+    #register{
+      margin-right: 5px;
+    }
+    .container-fluid .group .but:hover{color:#DC3348;}
+    .container-fluid .group .but:link{text-decoration: none;color:#DC3348;}
+    .change{border: 1px solid #DC3348;color:#DC3348;}
+    /*导航文字*/
+    .navtext{
+      width:400px;
+      height:30px;
+      margin:10px 94px 0px;
+    }
+    .navtext a{
+      text-decoration: none;
+      color: #000;
+    }
+    /*新房视频播放区*/
+  .videoplay{
+    height:652px;
+    background: #D5D5D4;
+  }
+  /*搜索框*/
+  .searchbox{
+    width:100%;
+    height:80px;
+    overflow: hidden;
+  }
+  .search{
+    width:540px ;
+    height: 40px;
+    margin:20px auto;
+  }
+  .search input{
+    width:330px;
+    height:34px;
+    margin-top:3px;
+    outline: none;
+    padding-left:5px;
+    border:1px solid #D6D6D5;
+    margin-left: 26px;
+  }
+  .search .search-select{
+    width:70px;
+    height:34px;
+    margin-top:3px;
+    border:1px solid #C1C1C1;
+    outline: none;
+    margin-left: -5px;
+  }
+  .search a{
+    display: inline-block;
+    text-decoration: none;
+    width:80px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    color:#DC3348;
+    background: #DEDEDC;
+    margin-left: -4px;
+  }
+  .search a:hover{background: #BD9F9F;}
+  /*视频播放*/
+  .video .videobox{
+    width:740px;
+    height:460px;
+    background: #4D4948;
+  }
+  .video .videobox p{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .video video{
+    width:720px;
+    height:402px;
+    margin:10px 10px 0px;
+  }
+  .video .col-md-4{
+    font-weight: bold;
+  }
+  .video .col-md-4 .mostcolor{
+    background:#DC3348;
+    color: #fff;
+  }
+  .video .col-md-4 small{
+    padding: 0px 8px;
+    margin-left: 8px;
+    font-size: 16px;
+  }
+  .video .col-md-4 h4{
+    padding: 8px 16px;
+    margin:38px auto;
+  }
+  .video .col-md-4 img{
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  .video .col-md-4 .bianjia{
+    margin-top:20px;
+  }
+  .video .col-md-4 .bianjia img{
+    margin-right: 0px;
+    margin-bottom: 2px;
+  }
+  /*分隔线*/
+  .divider{
+    height:14px;
+    background:#DC3348;
+  }
+  /*楼盘推荐理由*/
+  .cause{
+    padding-left:94px;
+    background: #F6F6F6;
+  }
+  .cause h3{
+    color:#DC3348;
+  }
+  /*楼盘动态，信息，户型，特色，配套*/
+  .build{
+    margin-top: 10px;
+  }
+  .build ul{
+    list-style: none;
+    padding:0;
+    width:100%;
+    height:40px;
+    background: #F6F6F6;
+  }
+  .build ul li{
+    list-style: none;
+    float: left;
+    width:160px;
+    line-height:40px;
+    text-align: center;
+    background: #F6F6F6;
+  }
+  .build li a{
+    text-decoration: none;
+    display: inline-block;
+    width:160px;
+    height:40px;
+    color:#000;
+  }
+  .build li a:hover{
+    background:#DC3348;
+    color:#fff;
+  }
+  /*楼盘户型*/
+  .buildtype{
+    width:950px;
+    height:320px;
+    margin:44px auto;
+    position: relative;
+  }
+  .buildtype .left{
+    position: absolute;
+    top:142px;
+    left:-100px ;
+  }
+  .buildtype .right{
+    position: absolute;
+    top:142px;
+    right:-100px;
+  }
+  .buildtype .typeone,.typetwo{
+    height:320px;
+    float: left;
+  }
+  .buildtype .typetwo{
+    margin-left:70px;
+  }
+  .buildtype .typethree{
+    height:320px;
+    float: right;
+  }
+  .buildtype .top{
+    width:56px;
+    height:29px;
+    margin:0 auto;
+  }
+  .buildtype .pic-one img{
+    margin-top: 13px;
+  }
+  .buildtype .pic-two img{
+    margin-top: 7px;
+  }
+  .buildtype .pic-three img{
+    margin-top: 5px;
+  }
+  .buildtype .top a{
+    text-decoration:none;
+    text-align: center;
+    line-height: 29px;
+    display: inline-block;
+    color:#fff;
+    background: #959593;
+    border-radius: 5px;
+    padding:0 10px;
+  }
+  .buildtype .top a:hover{
+    background:#DC3348;
+    color:#fff;
+  }
+  /*楼盘信息*/
+  .buildinfo{
+    width:100%;
+    padding:0px 94px;
+  }
+  .buildinfo .table tr td:nth-child(odd){
+    background: #F5F5F5;
+  }
+  /*楼盘配套*/
+  .buildpeitao{
+    width:100%;
+    padding:0px 94px;
+    margin-top: 50px;
+  }
+  .buildpeitao img{
+    display: block;
+  }
+  .buildpeitao .table tr td:nth-child(odd){
+    background: #F5F5F5;
+  }
+  .buildpeitao ul{
+    list-style: none;
+    padding:0;
+    width:100%;
+    height:40px;
+    margin-bottom: 0;
+  }
+  .buildpeitao ul li{
+    list-style: none;
+    float: left;
+    line-height:30px;
+    text-align: center;
+  }
+  .buildpeitao li a{
+    text-decoration: none;
+    display: inline-block;
+    padding:0px 19px;
+    height:30px;
+    color:#000;
+  }
+  .buildpeitao li a:hover{
+    background:#E8410A;
+    color:#fff;
+  }
+  .buildpeitao table{
+    margin-top: 20px;
+  }
+  /*灰色间隔线*/
+  .dividers{
+    width:100%;
+    height:37px;
+    margin:64px auto 0;
+    background: #969593;
+  }
+  /*底部*/
+  .bottom{
+    margin-top: 36px;
+  }
+  .bottom .col-md-2 a{
+    text-decoration: none;
+    color:#000;
+  }
+  .bottom .bold{
+    font-weight: bold;
+  }
+  .bottom .toright{
+    text-align: right;
+  }
+  .sevice{
+    width:32px;
+    height: 72px;
+    background: #F7F7F7;
+    position: fixed;
+    top:200px;
+    right:28px;
+    border-radius:4px;
+  }
+  .toTop{
+    width:32px;
+    height: 36px;
+    background: #F7F7F7;
+    color: #000;
+    z-index: 9999;
+    cursor: pointer;
+    position: absolute;
+    right:28px;
+    border-radius:4px;
+  }
+  .sevice .kefu,.call{
+    height:36px;
+    border-radius:4px;
+    position: relative;
+  }
+  .kefu .fix,.call .fix,.toTop .fix{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:32px;
+    height:36px;
+    border-radius:4px;
+    z-index: 9999;
+    display: none;
+    background: #DC3348;
+    color:#fff;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 12px;
+    padding-top: 7px;
+  }
+  .sevice .kefu:hover .fix{
+    display: block;
+  }
+  .sevice .call:hover .fix{
+    display: block;
+  }
+  .toTop:hover .fix{
+    display: block;
+  }
+  @font-face {font-family: "iconfont";
+  src: url('../iconfont/iconfont.eot?t=1458395929'); /* IE9*/
+  src: url('../iconfont/iconfont.eot?t=1458395929#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../iconfont/iconfont.woff?t=1458395929') format('woff'), /* chrome, firefox */
+  url('../iconfont/iconfont.ttf?t=1458395929') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../iconfont/iconfont.svg?t=1458395929#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:26px;
+  margin-left:3px;
+  color:#DC3348;cursor: pointer;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

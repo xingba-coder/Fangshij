@@ -1,0 +1,306 @@
+body{font-family: 微软雅黑;}
+/*头部*/
+nav.navbar{
+  height:80px;
+  margin-top: 12px;
+  border-bottom: 2px solid #c63d4f;
+  margin-bottom: 0px;
+}
+.navbar-logo{
+  margin-left: 74px;
+  width: 240px;
+  height: auto;
+}
+nav li:nth-child(3){
+  margin-left: 50px;
+}
+
+nav li:nth-child(4){
+  position: absolute;
+  right: 200px;
+}
+
+nav li:nth-child(5){
+  position: absolute;
+  right: 74px;
+}
+
+
+.navbar-btn{
+  margin:25px 10px;
+  padding: 1px 15px;
+  display: block;
+  font-size: 12px;
+  float: left;
+  color: #888;
+  border: 1px solid #999;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar-btn a{
+  text-decoration: none;
+  color:gray;
+}
+.nav span:hover{
+  color: #c63d4f;
+  border-color:#c63d4f; 
+}
+.nav small{
+  font-size: 14px;
+  font-weight: bolder;
+}
+.navbar-message{
+  width: 35px;
+  height: 35px;
+  margin:20px 4px;
+  background:url(../image/message.jpg)-4px -10px;
+  float: right;
+  cursor: pointer;
+}
+.navbar-message:hover{
+    background-position:-4px -46px ;
+}
+.navbar-exit{
+  width: 35px;
+  height: 35px;
+  margin:20px 4px;
+  background:url(../image/message.jpg)-47px -10px;
+  float: right;
+  cursor: pointer;
+}
+.navbar-exit:hover{
+  background-position:-47px -46px ;
+}
+/*我的首页导航区*/
+.myhome{
+		height:51px;
+		background: #DC3348;
+	}
+.myhome .col-md-3{
+	text-align: center;
+	line-height: 51px;
+	color:#000;
+	font-size: 18px;
+}
+.myhome .col-md-3 a{
+	text-decoration: none;
+	color:#000;
+}
+.myhome .col-md-3 .index{color:#fff;}
+/*新房二手房导航区*/
+.navs{height:90px;}
+.userinfotabs-radio-infotabs{
+  margin-top: 30px;
+  margin-left:-15px;
+}
+.userinfotabs-radio-infotabs a{
+  text-align: center;
+  display: inline-block;
+  height: 36px;
+  width: 227px;
+  line-height: 37px;
+  font-size: 18px;
+  color: #DC3347;
+  position: relative;
+  z-index: 0;
+}
+.userinfotabs-radio-infotabs a:first-child{
+  width: 243px;
+  background-image: url(../image/11.png);
+}
+.userinfotabs-radio-infotabs a:first-child:hover{
+  z-index: 1000;
+  color: #fff;
+  background-image: url(../image/111.png);
+}
+.userinfotabs-radio-infotabs a:nth-child(2){
+  background-image: url(../image/22.png);
+  margin-left: -15px;
+}
+.userinfotabs-radio-infotabs a:nth-child(2):hover{
+  background-image: url(../image/222.png);
+  z-index: 1000;
+  color: #fff;
+}
+.userinfotabs-radio-infotabs a:nth-child(3){
+  background-image: url(../image/22.png);
+  margin-left: -15px;
+}
+.userinfotabs-radio-infotabs a:nth-child(3):hover{
+  background-image: url(../image/222.png);
+  z-index: 1000;
+  color: #fff;
+}
+.userinfotabs-radio-infotabs a:last-child{
+  background-image: url(../image/22.png);
+  margin-left: -15px;
+}
+.userinfotabs-radio-infotabs a:last-child:hover{
+  background-image: url(../image/222.png);
+  z-index: 1000;
+  color: #fff;
+}
+
+/*标题*/
+.title{
+	height:51px;
+	line-height: 51px;
+}
+.title h3{
+	color:#DC3348;
+	float: left;
+	margin-top: 12px;
+}
+.title p{
+	float: left;
+	margin-left: 45px;
+	font-size: 16px;
+}
+/*类别*/
+.sorts .check {
+	float: left;
+	margin:12px 0 0 -470px;
+}
+#check{
+	width:26px;
+	height:26px;
+	vertical-align:middle;
+	margin-top:0;
+}
+.sorts .check label{
+	font-size: 14px;
+	font-family: Tahoma;
+	padding-left:10px;
+}
+.sorts .sort{
+  float:right;
+  background-color:#DC3348;
+  cursor:pointer;
+  margin-top:12px;
+  padding: 0px 15px 1px 30px;
+  color:#fff;
+  position:relative;
+  border-radius: 5px;
+}
+.triangle{
+  display: inline-block;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 8px solid #DC3348;
+  position:absolute; 
+  top:7px;
+  left:10px;
+  border-left: 8px solid #fff;
+}
+/*房源信息*/
+.fangyuan .row{
+	margin-bottom: 30px;
+}
+.fangyuan .col-md-7{
+    font-weight: bold;
+    padding-left: 80px;
+    position: relative;
+  }
+  .fangyuan .col-md-7 .bianji{
+  	position: absolute;
+  	top:10px;
+  	right:40px;
+  }
+  .fangyuan .col-md-7 .bianji a{
+  	text-decoration: none;
+  	display: inline-block;
+  	background: #DEDEDC;
+  	border:1px solid #B8B7B5;
+  	margin-top: 18px;
+  }
+  .fangyuan .col-md-7 .bianji input[type="checkbox"]{
+  	width:26px;
+  	height:26px;
+  	float: right;
+  }
+  .fangyuan .col-md-7 .bianji img{
+  	padding-left:8px;
+  	margin-top: -2px;
+  }
+  .fangyuan .col-md-7 .bianji span{
+  	padding-right: 8px;
+  	color:#6E6C6B;
+  }
+  .fangyuan .col-md-7 .mostcolor{
+    background:#DC3348;
+    color: #fff;
+  }
+  .fangyuan .col-md-7 small{
+    padding: 0px 8px;
+    margin-left: 8px;
+    font-size: 16px;
+  }
+  .fangyuan .col-md-7 h4{
+    padding: 8px 16px;
+    margin:38px auto;
+  }
+  .fangyuan .col-md-7 img{
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 10px;
+  }
+  .fangyuan .col-md-7 img:nth-child(1){
+  	margin-left: 0px;
+  }
+  .fangyuan .col-md-7 .bianjia{
+    margin-top:20px;
+  }
+  .fangyuan .col-md-7 .bianjia img{
+    margin-right: 0px;
+    margin-bottom: 2px;
+  }
+  /*分页*/
+  .page{
+  	text-align: center;
+  	position: relative;
+  	height:100px;
+  }
+  .page ul{
+  	list-style: none;
+  	margin-top:40px;
+  }
+  .page ul li{
+  	display: inline-block;
+  	margin-left: 10px;
+  }
+  .page .num a{
+  	display: inline-block;
+  	text-decoration: none;
+  	width: 20px;
+  	height:20px;
+  	border-radius: 50%;
+  	background: #DEDEDC;
+  	color:#000;
+  }
+  .page .num li a:hover{
+  	background: #DC3348;
+  }
+  .page .xiajia,.page .shuaxin{
+  	text-decoration: none;
+  	display: inline-block;
+  	background: #DC3348;
+  	color: #fff;
+  	line-height: 1.5;
+  	border-radius:5px;
+  	position: absolute;
+  	top:40px;
+  }
+  .page .xiajia{
+  	right:40px;
+  }
+  .page .shuaxin{
+  	right:129px;
+  }
+  .page img{
+  	padding-left:8px;
+  	margin-top: -4px;
+  }
+  .page span{
+  	padding-right:8px;
+  }

@@ -1,0 +1,154 @@
+body{font-family: 微软雅黑;}
+/*头部*/
+nav.navbar{
+  height:80px;
+  margin-top: 12px;
+  border-bottom: 2px solid #c63d4f;
+  margin-bottom: 0px;
+}
+.navbar-logo{
+  margin-left: 74px;
+  width: 240px;
+  height: auto;
+}
+nav li:nth-child(3){
+  margin-left: 50px;
+}
+
+nav li:nth-child(4){
+  position: absolute;
+  right: 200px;
+}
+
+nav li:nth-child(5){
+  position: absolute;
+  right: 74px;
+}
+
+
+.navbar-btn{
+  margin:25px 10px;
+  padding: 1px 15px;
+  display: block;
+  font-size: 12px;
+  float: left;
+  color: #888;
+  border: 1px solid #999;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar-btn a{
+  text-decoration: none;
+  color:gray;
+}
+.nav span:hover{
+  color: #c63d4f;
+  border-color:#c63d4f; 
+}
+.nav small{
+  font-size: 14px;
+  font-weight: bolder;
+}
+.navbar-message{
+  width: 35px;
+  height: 35px;
+  margin:20px 4px;
+  background:url(../image/message.jpg)-4px -10px;
+  float: right;
+  cursor: pointer;
+}
+.navbar-message:hover{
+    background-position:-4px -46px ;
+}
+.navbar-exit{
+  width: 35px;
+  height: 35px;
+  margin:20px 4px;
+  background:url(../image/message.jpg)-47px -10px;
+  float: right;
+  cursor: pointer;
+}
+.navbar-exit:hover{
+  background-position:-47px -46px ;
+}
+/*我的首页导航区*/
+.myhome{
+		height:51px;
+		background: #DC3348;
+	}
+.myhome .col-md-3{
+	text-align: center;
+	line-height: 51px;
+	font-size: 18px;
+}
+.myhome .col-md-3 a{
+	text-decoration: none;
+	color:#000;
+}
+.myhome .col-md-3 .index{color:#fff;}
+/*新房二手房导航区*/
+.navs{height:90px;}
+.userinfotabs-radio-infotabs{
+  margin-top: 30px;
+  margin-left:-15px;
+}
+.userinfotabs-radio-infotabs a{
+  text-align: center;
+  display: inline-block;
+  height: 36px;
+  width: 227px;
+  line-height: 37px;
+  font-size: 18px;
+  color: #DC3347;
+  position: relative;
+  z-index: 0;
+}
+.userinfotabs-radio-infotabs a:first-child{
+  width: 243px;
+  background-image: url(../image/11.png);
+}
+.userinfotabs-radio-infotabs a:first-child:hover{
+  z-index: 1000;
+  color: #fff;
+  background-image: url(../image/111.png);
+}
+.userinfotabs-radio-infotabs a:nth-child(2){
+  background-image: url(../image/22.png);
+  margin-left: -15px;
+}
+.userinfotabs-radio-infotabs a:nth-child(2):hover{
+  background-image: url(../image/222.png);
+  z-index: 1000;
+  color: #fff;
+}
+.userinfotabs-radio-infotabs a:nth-child(3){
+  background-image: url(../image/22.png);
+  margin-left: -15px;
+}
+.userinfotabs-radio-infotabs a:nth-child(3):hover{
+  background-image: url(../image/222.png);
+  z-index: 1000;
+  color: #fff;
+}
+.userinfotabs-radio-infotabs a:last-child{
+  background-image: url(../image/22.png);
+  margin-left: -15px;
+}
+.userinfotabs-radio-infotabs a:last-child:hover{
+  background-image: url(../image/222.png);
+  z-index: 1000;
+  color: #fff;
+}
+
+
+/*表格*/
+.table{
+    width: 1135px;
+    margin: 26px auto;
+    text-align: center
+}
+.table .mostcolor{
+	background: #DC3348;
+	color:#fff;
+}
